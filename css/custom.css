@@ -78,15 +78,7 @@ p {
     padding-top:2em;
     padding-bottom:2em;
     }
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+
 
 .clear-padding {
   padding:0;
@@ -96,21 +88,7 @@ p {
   margin-top:20em;
 }
 
-
-.caption a {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-image:url('');
-  background-size:100%;
-  visibility:hidden;
-  text-decoration:none;
-  transition:transform 2s;
-  color:#FFFFFF;
-}
-
+/*cover style*/
 .project1 a {
   background-image:url('../img/covers/project-cover-1-hover.jpg');
 }
@@ -141,6 +119,19 @@ p {
 .project10 a {
   background-image:url('../img/covers/project-cover-10-hover.jpg');
 }
+.caption a {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-image:url('');
+  background-size:100%;
+  visibility:hidden;
+  text-decoration:none;
+  transition:transform 2s;
+  color:#FFFFFF;
+}
 
 .caption-content { 
  -webkit-transform: translateY(-20%);
@@ -154,8 +145,6 @@ p {
 .caption:hover a {
   visibility:visible;
 }
-
-
 
 
 .media-icon img {
@@ -542,7 +531,6 @@ p {
 
 // Large screens
 @media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
-
 
 
 
